@@ -7,7 +7,11 @@
 <img src="https://github.com/fankes/MIUINativeNotifyIcon/blob/master/app/src/main/ic_launcher-playstore.png" width = "100" height = "100"/>
 <br/>
 Fix the native notification bar icon function abandoned by the MIUI development team.<br/>
-修复被 MIUI 开发组丢弃的原生通知图标，支持 MIUI 12.5、13 以及最新版本。
+修复被 MIUI 开发组丢弃的原生通知图标，支持 MIUI 12、12.5、13 以及最新版本。
+<br/><br/>
+⚠️适配说明<br/>
+
+- 目前最低支持基于 Android 10 版本的 MIUI12 或 MIUI12.5(建议)
 
 # 禁止任何商业用途
 
