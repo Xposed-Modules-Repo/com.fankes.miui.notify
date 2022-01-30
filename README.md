@@ -2,7 +2,7 @@
 
 ![Eclipse Marketplace](https://img.shields.io/badge/build-passing-brightgreen)
 ![Eclipse Marketplace](https://img.shields.io/badge/license-GPL3.0-blue)
-![Eclipse Marketplace](https://img.shields.io/badge/version-v1.0-green)
+![Eclipse Marketplace](https://img.shields.io/badge/version-v1.1-green)
 <br/><br/>
 <img src="https://github.com/fankes/MIUINativeNotifyIcon/blob/master/app/src/main/ic_launcher-playstore.png" width = "100" height = "100"/>
 <br/>
@@ -11,7 +11,7 @@ Fix the native notification bar icon function abandoned by the MIUI development 
 <br/><br/>
 ⚠️适配说明<br/>
 
-- 目前最低支持基于 Android 10 版本的 MIUI12 或 MIUI12.5(建议)
+- 目前最低支持基于 Android 9 版本的 MIUI12 或 MIUI12.5(建议)
 
 # 禁止任何商业用途
 
