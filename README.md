@@ -9,9 +9,10 @@
 Fix the native notification bar icon function abandoned by the MIUI development team.<br/>
 修复被 MIUI 开发组丢弃的原生通知图标，支持 MIUI 12、12.5、13 以及最新版本。
 <br/><br/>
-⚠️适配说明<br/>
+⚠️ 适配说明<br/>
 
 - 目前最低支持基于 Android 9 版本的 MIUI12 或 MIUI12.5(建议)
+- 使用 Zygisk 方式运行的 Lsposed 可能会发生 Hook 不生效的问题，若出现问题请使用 Ramdisk 版本的 Lsposed
 
 # 禁止任何商业用途
 
