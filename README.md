@@ -13,7 +13,7 @@ Fix the native notification bar icon function abandoned by the MIUI development 
 - 目前最低支持基于 Android 9 版本的 MIUI 12 或 MIUI 12.5(最低建议)
 - 请始终保持最新版本的 LSPosed，旧版本可能会出现 Hook 不生效的问题
 
-Xposed-Modules-Reop 有一定时长的缓存，若最新版本无法下载请前往如下地址下载<br/>
+Xposed-Modules-Repo 有一定时长的缓存，若最新版本无法下载请前往如下地址下载<br/>
 [Release 发布地址](https://github.com/fankes/MIUINativeNotifyIcon/releases)
 
 # 禁止任何商业用途
