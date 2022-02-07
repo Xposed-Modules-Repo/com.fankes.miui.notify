@@ -10,8 +10,8 @@ Fix the native notification bar icon function abandoned by the MIUI development 
 <br/><br/>
 ⚠️ 适配说明<br/>
 
-- 目前最低支持基于 Android 9 版本的 MIUI12 或 MIUI12.5(建议)
-- 使用 Zygisk 方式运行的 Lsposed 可能会发生 Hook 不生效的问题，若出现问题请使用 Ramdisk 版本的 Lsposed
+- 目前最低支持基于 Android 9 版本的 MIUI 12 或 MIUI 12.5(最低建议)
+- 请始终保持最新版本的 LSPosed，旧版本可能会出现 Hook 不生效的问题
 
 # 禁止任何商业用途
 
