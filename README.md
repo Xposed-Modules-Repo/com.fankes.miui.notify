@@ -1,6 +1,6 @@
 # MIUI 原生通知图标
 
-![Eclipse Marketplace](https://img.shields.io/badge/license-GPL3.0-blue)
+![Eclipse Marketplace](https://img.shields.io/badge/license-AGPL3.0-blue)
 ![Eclipse Marketplace](https://img.shields.io/badge/version-v1.36-green)
 <br/><br/>
 <img src="https://github.com/fankes/MIUINativeNotifyIcon/blob/master/app/src/main/ic_launcher-playstore.png" width = "100" height = "100"/>
@@ -15,10 +15,6 @@ Fix the native notification bar icon function abandoned by the MIUI development 
 
 Xposed-Modules-Repo 有一定时长的缓存，若最新版本无法下载请前往如下地址下载<br/>
 [Release 发布地址](https://github.com/fankes/MIUINativeNotifyIcon/releases)
-
-# 禁止任何商业用途
-
-本模块完全开源免费，如果好用你可以打赏支持开发，严禁未经许可进行二改贩卖，违者必惩必究。
 
 # 历史背景
 
