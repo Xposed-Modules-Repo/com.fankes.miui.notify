@@ -26,3 +26,9 @@ Xposed-Modules-Repo 有一定时长的缓存，若最新版本无法下载请前
 对于 Android 开发者来说，官方文档中的 `setSmallIcon` 不再适用于魔改后的 MIUI，这将会严重破坏非常多的状态图标。<br/><br/>
 当然，国内的手机生态除了 `MIPUSH` 的营销通知就是社交软件的通知，可能大部分人都不会在意这件事情。<br/><br/>
 但是，这个模块就是为了修复被 MIUI 开发组忽略的图标问题才诞生的，并完美地给 MIUI 修复了黑白块图标的问题。
+
+# 贡献
+
+本模块使用 [YukiHookAPI](https://github.com/fankes/YukiHookAPI) 构建<br/><br/>
+YukiHookAPI 是一个高效的 Hook API 构建工具，让你的 Xposed 模块开发变得更加简单。<br/><br/>
+版权所有 © 2019-2022 Fankes Studio(qzmmcn@163.com)
