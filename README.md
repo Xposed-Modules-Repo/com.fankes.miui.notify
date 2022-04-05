@@ -2,6 +2,7 @@
 
 ![Eclipse Marketplace](https://img.shields.io/badge/license-AGPL3.0-blue)
 ![Eclipse Marketplace](https://img.shields.io/badge/version-v2.35-green)
+[![Telegram](https://img.shields.io/badge/Follow-Telegram-blue.svg?logo=telegram)](https://t.me/XiaofangInternet)
 <br/><br/>
 <img src="https://github.com/fankes/MIUINativeNotifyIcon/blob/master/app/src/main/ic_launcher-playstore.png" width = "100" height = "100"/>
 <br/>
