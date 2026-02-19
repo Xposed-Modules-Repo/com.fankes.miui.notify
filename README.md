@@ -47,9 +47,6 @@ Fix the native notification bar icon function abandoned by the MIUI development 
 | <img src="https://avatars.githubusercontent.com/u/78217009?s=200&v=4?raw=true" width = "30" height = "30" alt="LOGO"/> | [Xposed-Modules-Repo](https://github.com/Xposed-Modules-Repo/com.fankes.miui.notify/releases) | 正式版 (稳定版) |
 |------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------|-----------|
 
-| <img src="https://github.com/fankes/fankes/assets/37344460/82113d3c-aa7b-4dd1-95c7-cda650065c12" width = "30" height = "30" alt="LOGO"/> | [123 云盘 **(密码：62ll)**](https://www.123pan.com/s/5SlUVv-W8DBh.html) | 正式版 (稳定版) |
-|------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------|-----------|
-
 本模块发布地址仅限于上述所列出的地址，从其他非正规渠道下载到的版本或对您造成任何影响均与我们无关。
 
 ## 注意事项
@@ -83,3 +80,4 @@ Fix the native notification bar icon function abandoned by the MIUI development 
 YukiHookAPI 是一个使用 Kotlin 重构的高效 Hook API 构建工具，让你的 Xposed 模块开发变得更加简单。
 
 版权所有 © 2017 Fankes Studio(qzmmcn@163.com)
+
