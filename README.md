@@ -1,4 +1,4 @@
-# HyperOS/MIUI 原生通知图标
+# HyperOS/MIUI Stock Notification Icon / HyperOS/MIUI 原生通知图标
 
 [![GitHub license](https://img.shields.io/github/license/fankes/MIUINativeNotifyIcon?color=blue&style=flat-square)](https://github.com/fankes/MIUINativeNotifyIcon/blob/master/LICENSE)
 [![GitHub CI](https://img.shields.io/github/actions/workflow/status/fankes/MIUINativeNotifyIcon/commit_ci.yml?label=CI%20builds&style=flat-square)](https://github.com/fankes/MIUINativeNotifyIcon/actions/workflows/commit_ci.yml)
@@ -14,7 +14,93 @@
 
 <img src="https://github.com/fankes/MIUINativeNotifyIcon/blob/master/img-src/icon.png?raw=true" width = "100" height = "100" alt="LOGO"/>
 
-修复被 HyperOS/MIUI 开发组丢弃的原生通知图标。
+简体中文用户请 [前往这里](#simplified-chinese) 以查看简体中文版自述文件内容。
+
+---
+## English
+
+## Project Migration Notice
+
+Maintaining two modules for both **HyperOS/MIUI** and **ColorOS** at the same time is very inconvenient, so I plan to gradually merge and decouple the
+two
+projects into a new one, with plans to support more systems and devices, such as AOSP and AOSP-like systems.
+
+The new project is [Sumi](https://github.com/fankes/Sumi), which is currently in development. After the new project publishes its official
+release, I will stop maintaining this project and recommend that everyone move to the new project.
+
+## Compatibility Notes
+
+- **LSPosed** (scope: "System UI") is recommended
+- Please make sure you are using an official HyperOS/MIUI build. The developer has no obligation to solve or fix problems that occur on any
+  third-party
+  modified ROM
+- The minimum supported version is MIUI 11 based on Android 9, or MIUI 12 / 12.5
+- It is recommended to use the module from the MIUI 12.5 `2021-5-18` development build onwards. Earlier versions may have MIUI's own bugs that make it
+  ineffective or show black and white block icons
+
+## Release Channels
+
+| <img src="https://avatars.githubusercontent.com/in/15368?s=64&v=4" width = "30" height = "30" alt="LOGO"/> | [GitHub CI](https://github.com/fankes/MIUINativeNotifyIcon/actions/workflows/commit_ci.yml) | CI automatic builds (beta) |
+|------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------|----------------------------|
+
+| <img src="https://github.com/peter-iakovlev/Telegram/blob/public/Icon.png?raw=true" width = "30" height = "30" alt="LOGO"/> | [Telegram CI Channel](https://t.me/MIUINativeNotifyIcon_CI) | CI automatic builds (beta) |
+|-----------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------|----------------------------|
+
+| <img src="https://avatars.githubusercontent.com/in/15368?s=64&v=4" width = "30" height = "30" alt="LOGO"/> | [GitHub Releases](https://github.com/fankes/MIUINativeNotifyIcon/releases) | Official releases (stable) |
+|------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------|----------------------------|
+
+| <img src="https://avatars.githubusercontent.com/u/78217009?s=200&v=4?raw=true" width = "30" height = "30" alt="LOGO"/> | [Xposed-Modules-Repo](https://github.com/Xposed-Modules-Repo/com.fankes.miui.notify/releases) | Official releases (stable) |
+|------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------|----------------------------|
+
+The release addresses of this module are limited to those listed above. We are not responsible for any impact caused by versions downloaded from other
+unofficial channels.
+
+### Choose a Module Version by Scenario
+
+The installation packages of this project come in two tracks: **modern** and **legacy**.
+
+- Versions marked **modern** are for Xposed frameworks that support the libxposed API, such as LSPosed
+- Versions marked **legacy** are for Xposed frameworks that support the Xposed Framework API, such as old LSPosed (≤ 1.9.0), EdXposed, etc.
+
+The **modern** version supports automatic hot reload on LSPosed 2.1.0+. After the first installation, later module updates take effect without
+restarting System UI.
+
+## Notes
+
+1. This software is free and developed out of interest, for learning and communication only. If you obtained it from an unofficial channel by paying
+   for it, you may have been defrauded, and you are welcome to report suspicious behavior to us.
+2. This software is licensed under the **GNU Affero General Public License (AGPL 3.0)**. According to the license:
+    1. Any derivative work must use the same AGPLv3 license
+    2. The complete source code must be provided when distributing this software or its modified versions
+    3. The original copyright notice and license information must be retained
+    4. No additional restrictions may be imposed to limit others' free use of this software
+3. We encourage free distribution and improvement under the terms of AGPLv3, but please respect the author's attribution and do not impersonate the
+   original author
+
+## More Projects
+
+<!--suppress HtmlDeprecatedAttribute -->
+<div align="center">
+    <h2>Hey, please stay a moment! 👋</h2>
+    <h3>If you find this project helpful, take a look at my other projects below!</h3>
+    <h3>If these projects help you, consider giving me a follow or a star ⭐️!</h3>
+    <h1><a href="https://github.com/fankes/fankes/blob/main/project-promote/README.md">→ Click here to see more of my projects ←</a></h1>
+</div>
+
+## Built with
+
+This module is built with [YukiHook](https://github.com/HighCapable/YukiHook).
+
+YukiHook is a modern hook API and Xposed module solution that makes developing Xposed modules easier and more reliable.
+
+This module is powered by [KavaRef](https://github.com/HighCapable/KavaRef).
+
+KavaRef is a modern Java reflection library implemented in Kotlin, designed to make your Xposed module development more stable and up-to-date.
+
+Copyright © 2017 Fankes Studio(qzmmcn@163.com)
+
+---
+## Simplified Chinese
 
 ## 项目迁移公告
 
@@ -22,7 +108,7 @@
 
 在新的项目确定后，会在这里添加新项目的链接，届时我会终止维护这个项目并建议大家转移到新项目。
 
-新项目已确定为 [Sumikage](https://github.com/fankes/Sumikage)，目前处于开发阶段，在新项目发布正式版本后，我会终止维护这个项目并建议大家转移到新项目。
+新项目已确定为 [Sumi](https://github.com/fankes/Sumi)，目前处于开发阶段，在新项目发布正式版本后，我会终止维护这个项目并建议大家转移到新项目。
 
 ## 适配说明
 
